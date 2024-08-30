@@ -4,8 +4,10 @@ class CfgPatches {
     class ADDON    {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        units[] = {};
-        weapons[] = {};
+        units[] = { };
+        weapons[] = {
+            "KAT_Katmin"
+        };
         magazines[] = { };
         requiredAddons[] = {
             "kat_main",
@@ -21,22 +23,15 @@ class CfgPatches {
             "ace_medical_treatment",
             "ace_medical_vitals",
             "ace_dogtags",
-            "cba_settings",
-            "A3_Static_F"
+            "cba_settings"
         };
-        author = "Katalam";
-        authors[] = {"Katalam"};
+        author = "Mazinski";
+        authors[] = {"Mazinski"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
-#include "CfgFunctions.hpp"
-#include "CfgGlasses.hpp"
 #include "CfgEventHandlers.hpp"
-#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
-#include "ACE_Medical_Treatment_Actions.hpp"
-#include "CfgSounds.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgBloodGroupsInsignia.hpp"
+#include "RscTitles.hpp"
