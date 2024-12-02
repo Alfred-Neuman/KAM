@@ -66,6 +66,7 @@
             <Finnish>Ei lisätty nesteitä</Finnish>
             <Russian>Никаких переливаний</Russian>
             <Dutch>Geen toegediende vloeistoffen</Dutch>
+            <Italian>Nessun fluido somministrato</Italian>
         </Key>
         <Key ID="STR_KAT_GUI_SETTING_overlayBodyPart">
             <English>Overlay Selected Body Part</English>
@@ -79,6 +80,7 @@
             <Finnish>Korosta valittu kehon osa</Finnish>
             <Russian>Показать выбранную часть тела</Russian>
             <Dutch>Omtrekking geselecteerd lichaamsdeel</Dutch>
+            <Italian>Visualizza la parte del corpo selezionata</Italian>
         </Key>
         <Key ID="STR_KAT_GUI_SETTING_showPatientSideLabels">
             <English>Label Patient Sides</English>
@@ -92,12 +94,14 @@
             <Finnish>Merkitse potilaan sivut</Finnish>
             <Russian>Маркировка сторон пациента</Russian>
             <Dutch>Label zijden van patiënt</Dutch>
+            <Italian>Etichettare i lati del paziente</Italian>
         </Key>
         <Key ID="STR_KAT_GUI_HeadCover">
             <English>HEAD - NO LINE</English>
             <Dutch>HOOFD - GEEN LIJN</Dutch>
             <Spanish>CABEZA - SIN LINEA</Spanish>
             <Japanese>頭部 - ライン無し</Japanese>
+            <Italian>TESTA - SENZA LINEA</Italian>
             <French>Tête - pas de lignes</French>
         </Key>
         <Key ID="STR_KAT_GUI_ChestCover">
@@ -105,6 +109,7 @@
             <Dutch>TORSO - GEEN LIJN</Dutch>
             <Spanish>TORSO - SIN LINEA</Spanish>
             <Japanese>胸部 - ライン無し</Japanese>
+            <Italian>TORACE - SENZA LINEA</Italian>
             <French>Poitrine - pas de lignes</French>
         </Key>
         <Key ID="STR_KAT_GUI_RArmCover">
@@ -112,6 +117,7 @@
             <Dutch>RECHTERARM - GEEN LIJN</Dutch>
             <Spanish>BRAZO DERECHO - SIN LINEA</Spanish>
             <Japanese>右腕 - ライン無し</Japanese>
+            <Italian>BRACCIO DESTRO - SENZA LINEA</Italian>
             <French>Bras droit - pas de ligne</French>
         </Key>
         <Key ID="STR_KAT_GUI_LArmCover">
@@ -119,6 +125,7 @@
             <Dutch>LINKERARM - GEEN LIJN</Dutch>
             <Spanish>BRAZO IZQUIERDO - SIN LINEA</Spanish>
             <Japanese>左腕 - ライン無し</Japanese>
+            <Italian>BRACCIO SINISTRO - SENZA LINEA</Italian>
             <French>Bras gauche - pas de ligne</French>
         </Key>
         <Key ID="STR_KAT_GUI_RLegCover">
@@ -126,6 +133,7 @@
             <Dutch>RECHTERBEEN - GEEN LIJN</Dutch>
             <Spanish>PIERNA DERECHA - SIN LINEA</Spanish>
             <Japanese>右脚 - ライン無し</Japanese>
+            <Italian>GAMBA DESTRA - SENZA LINEA</Italian>
             <French>Jambe droite - pas de ligne</French>
         </Key>
         <Key ID="STR_KAT_GUI_LLegCover">
@@ -133,6 +141,7 @@
             <Dutch>LINKERBEEN - GEEN LIJN</Dutch>
             <Spanish>PIERNA IZQUIERDA - SIN LINEA</Spanish>
             <Japanese>左脚 - ライン無し</Japanese>
+            <Italian>GAMBA SINISTRA - SENZA LINEA</Italian>
             <French>Jambe gauche - pas de ligne</French>
         </Key>
         <Key ID="STR_KAT_GUI_IVFlowTitle">
@@ -140,6 +149,7 @@
             <Dutch>IV-Stroomregeling</Dutch>
             <Spanish>Control de Flujo IV</Spanish>
             <Japanese>IV流量操作</Japanese>
+            <Italian>Controllo del flusso IV</Italian>
             <French>Fonctionnement du flux IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_ABGTitle">
@@ -147,6 +157,7 @@
             <Dutch>ABG resultaten</Dutch>
             <Spanish>Resultados ABG</Spanish>
             <Japanese>ABG 結果</Japanese>
+            <Italian>Risultati ABG</Italian>
             <French>Résultats de l'ABG.</French>
         </Key>
         <Key ID="STR_KAT_GUI_IVValue">
@@ -154,6 +165,7 @@
             <Dutch>0.0</Dutch>
             <Spanish>0.0</Spanish>
             <Japanese>0.0</Japanese>
+            <Italian>0.0</Italian>
             <French>0.0</French>
         </Key>
         <Key ID="STR_KAT_GUI_HeadTitle">
@@ -161,6 +173,7 @@
             <Dutch>Hoofd</Dutch>
             <Spanish>Cabeza</Spanish>
             <Japanese>頭部</Japanese>
+            <Italian>Testa</Italian>
             <French>Tête</French>
         </Key>
         <Key ID="STR_KAT_GUI_HeadType">
@@ -168,6 +181,7 @@
             <Dutch>IV</Dutch>
             <Spanish>IV</Spanish>
             <Japanese>IV</Japanese>
+            <Italian>IV</Italian>
             <French>IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_ChestTitle">
@@ -175,6 +189,7 @@
             <Dutch>Torso</Dutch>
             <Spanish>Torso</Spanish>
             <Japanese>胸部</Japanese>
+            <Italian>Torace</Italian>
             <French>Torse</French>
         </Key>
         <Key ID="STR_KAT_GUI_ChestType">
@@ -182,6 +197,7 @@
             <Dutch>IV</Dutch>
             <Spanish>IV</Spanish>
             <Japanese>IV</Japanese>
+            <Italian>IV</Italian>
             <French>IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_LArmTitle">
@@ -189,6 +205,7 @@
             <Dutch>LA</Dutch>
             <Spanish>BI</Spanish>
             <Japanese>左腕</Japanese>
+            <Italian>BS</Italian>
             <French>LA</French>
         </Key>
         <Key ID="STR_KAT_GUI_LArmType">
@@ -196,6 +213,7 @@
             <Dutch>IV</Dutch>
             <Spanish>IV</Spanish>
             <Japanese>IV</Japanese>
+            <Italian>IV</Italian>
             <French>IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_RArmTitle">
@@ -203,6 +221,7 @@
             <Dutch>RA</Dutch>
             <Spanish>BD</Spanish>
             <Japanese>右腕</Japanese>
+            <Italian>BD</Italian>
             <French>RA</French>
         </Key>
         <Key ID="STR_KAT_GUI_RArmType">
@@ -210,6 +229,7 @@
             <Dutch>IV</Dutch>
             <Spanish>IV</Spanish>
             <Japanese>IV</Japanese>
+            <Italian>IV</Italian>
             <French>IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_LLegTitle">
@@ -217,6 +237,7 @@
             <Dutch>LB</Dutch>
             <Spanish>PI</Spanish>
             <Japanese>左脚</Japanese>
+            <Italian>GS</Italian>
             <French>LL</French>
         </Key>
         <Key ID="STR_KAT_GUI_LLegType">
@@ -224,6 +245,7 @@
             <Dutch>IV</Dutch>
             <Spanish>IV</Spanish>
             <Japanese>IV</Japanese>
+            <Italian>IV</Italian>
             <French>IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_RLegTitle">
@@ -231,6 +253,7 @@
             <Dutch>RB</Dutch>
             <Spanish>PD</Spanish>
             <Japanese>右脚</Japanese>
+            <Italian>GB</Italian>
             <French>RL</French>
         </Key>
         <Key ID="STR_KAT_GUI_RLegType">
@@ -238,6 +261,7 @@
             <Dutch>IV</Dutch>
             <Spanish>IV</Spanish>
             <Japanese>IV</Japanese>
+            <Italian>IV</Italian>
             <French>IV</French>
         </Key>
         <Key ID="STR_KAT_GUI_BGBlank">
@@ -245,6 +269,7 @@
             <Dutch>--.-</Dutch>
             <Spanish>--.-</Spanish>
             <Japanese>--.-</Japanese>
+            <Italian>--.-</Italian>
             <French>--.-</French>
         </Key>
         <Key ID="STR_KAT_GUI_TestReset">
@@ -252,6 +277,7 @@
             <Dutch>Reset</Dutch>
             <Spanish>Restaurar</Spanish>
             <Japanese>リセット</Japanese>
+            <Italian>Ripristina</Italian>
             <French>Réinitialiser</French>
         </Key>
     </Package>
