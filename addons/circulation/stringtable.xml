@@ -1997,9 +1997,11 @@
         </Key>
         <Key ID="STR_KAT_Circulation_SETTING_abg_enable">
             <English>Enable ABG Testing</English>
+            <French>Activer le test ABG</French>
         </Key>
         <Key ID="STR_KAT_Circulation_SETTING_abg_enable_DESC">
             <English>Enables ABG Testing and ACE Menu Visibility</English>
+            <French>Permet le test ABG et la visibilité du menu ACE</French>
         </Key>
         <Key ID="STR_KAT_Circulation_bloodtype_log">
             <English>%1 checked dogtags blood group: %2</English>
