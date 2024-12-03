@@ -57,7 +57,7 @@
             <Spanish>Multiplicador del impacto del calentador de fluidos en la ganancia de calor</Spanish>
             <Japanese>輸液ウォーマーが熱獲得に与える影響の乗数</Japanese>
             <Italian>Moltiplicatore per l'impatto del riscaldatore per liquidi sull'aumento del calore</Italian>
-            <French>Multipler pour l'impact du réchauffement des fluides sur le gain de chaleur</French>
+            <French>Multiplicateur pour l'impact du réchauffement des fluides sur le gain de chaleur</French>
         </Key>
         <Key ID="STR_KAT_Hypothermia_WARM_CLOTHING">
             <English>Warm Uniforms</English>
