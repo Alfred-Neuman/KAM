@@ -33,7 +33,7 @@
             <Spanish>Impacto de Calentador de Manos</Spanish>
             <Japanese>ハンドウォーマーの影響</Japanese>
             <Italian>Impatto dei riscaldatori per le mani</Italian>
-            <French>Impact de la chaleur des mains</French>
+            <French>Impact du chauffe-mains</French>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HAND_WARMER_IMPACT_DESC">
             <English>Multipler for impact of hand warmers on heat gain</English>
@@ -41,7 +41,7 @@
             <Spanish>Multiplicador del impacto del calentador de manos en la ganancia de calor</Spanish>
             <Japanese>ハンドウォーマーが熱獲得に与える影響の乗数</Japanese>
             <Italian>Moltiplicatore per l'impatto dei riscaldatori per le mani sull'aumento del calore</Italian>
-            <French>Multipler pour l'impact des chauffe-mains sur le gain de chaleur</French>
+            <French>Multiplicateur pour l'impact des chauffe-mains sur le gain de chaleur</French>
         </Key>
         <Key ID="STR_KAT_Hypothermia_FLUID_WARMER_IMPACT">
             <English>Fluid Warmer Impact</English>
@@ -49,7 +49,7 @@
             <Spanish>Impacto del Calentador de Fluidos</Spanish>
             <Japanese>輸液ウォーマーの影響</Japanese>
             <Italian>Impatto del riscaldatore per liquidi</Italian>
-            <French>Réchauffeur de fluide Impact</French>
+            <French>Impact du réchauffeur de fluide</French>
         </Key>
         <Key ID="STR_KAT_Hypothermia_FLUID_WARMER_IMPACT_DESC">
             <English>Multipler for impact of fluid warmer on heat gain</English>
@@ -105,7 +105,7 @@
             <Spanish>Usar Calentador de Manos</Spanish>
             <Japanese>ハンドウォーマーを使用する</Japanese>
             <Italian>Usa il riscaldatore per le mani</Italian>
-            <French>Utilisez des chauffe-mains.</French>
+            <French>Utiliser des chauffe-mains</French>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Self_Handwarmer_Output">
             <English>This is where you have handwarmers and how much longer you think they have in minutes: %1, %2, %3, %4, %5</English>

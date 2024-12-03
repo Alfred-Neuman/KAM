@@ -785,7 +785,7 @@
         </Key>
         <Key ID="STR_KAT_Chemical_OnlyObject">
             <English>Must be placed on object</English>
-            <French>Doit être placé sur l'objet</French>
+            <French>Doit être placé sur un objet</French>
         </Key>
         <Key ID="STR_KAT_Chemical_PutOnGasMask">
             <English>Put on gas mask</English>
