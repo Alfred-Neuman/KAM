@@ -23,7 +23,7 @@
             <English>AI Simple Medical activated?</English>
             <Dutch>AI/KI simpel medische simulatie geactiveerd?</Dutch>
             <Spanish>¿Activar Médico Simple para IA?</Spanish>
-            <Japanese>AI用単純化医療を有効化しますか?</Japanese>
+            <Japanese>AI用単純化医療を有効化</Japanese>
             <Italian>AI Simple Medical attivato?</Italian>
         </Key>
         <Key ID="STR_KAT_Circulation_SETTING_AdvRhythm_Enable">
@@ -38,7 +38,7 @@
             <Italian>Ritmo avanzato attivato?</Italian>
             <Spanish>¿Ritmo avanzado activado?</Spanish>
             <Czech>Pokročilý Rytmus aktivován?</Czech>
-            <Japanese>高度な心調律を有効化しますか?</Japanese>
+            <Japanese>高度な心調律を有効化</Japanese>
             <Russian>Продвинутый ритм активирован?</Russian>
             <Portuguese>Ritmo avançado ativado?</Portuguese>
             <Finnish>Edistyneet sykerytmit aktivoitu?</Finnish>
@@ -1992,9 +1992,11 @@
         </Key>
         <Key ID="STR_KAT_Circulation_SETTING_abg_enable">
             <English>Enable ABG Testing</English>
+            <Japanese>ABGテストを有効化</Japanese>
         </Key>
         <Key ID="STR_KAT_Circulation_SETTING_abg_enable_DESC">
             <English>Enables ABG Testing and ACE Menu Visibility</English>
+            <Japanese>ABGテストを有効化しACEメニューに表示します</Japanese>
         </Key>
         <Key ID="STR_KAT_Circulation_bloodtype_log">
             <English>%1 checked dogtags blood group: %2</English>
@@ -2583,6 +2585,7 @@
         </Key>
         <Key ID="STR_KAT_Circulation_ChangeCPRDevice">
             <English>Change Monitoring Device</English>
+            <Japanese>モニタリングする装置を変更</Japanese>
         </Key>
         <Key ID="STR_KAT_Circulation_StartCPR">
             <English>CPR Started</English>
