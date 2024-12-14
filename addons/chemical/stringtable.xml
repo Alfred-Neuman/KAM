@@ -776,7 +776,6 @@
             <Finnish>Kaasutyyppi</Finnish>
             <Russian>Тип газа:</Russian>
             <Dutch>Gas type:</Dutch>
-            <French>Type de gaz :</French>
         </Key>
         <Key ID="STR_KAT_Chemical_SETTING_gasMaskSoundVolume">
             <English>Gas Mask Sound Volume</English>
