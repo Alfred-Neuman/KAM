@@ -2753,7 +2753,7 @@
         <Key ID="STR_KAT_Breathing_SETTING_AVAIL_OXYMASK_DISC">
             <English>Sets which goggles can act as oxygen masks</English>
             <Japanese>酸素マスクとして動作させたいゴーグルを指定します</Japanese>
-            <French>Spécifiez les lunettes que vous souhaitez utiliser comme masque à oxygène.</French>
+            <French>Spécifiez les masques que vous souhaitez utiliser comme masque à oxygène.</French>
         </Key>
         <Key ID="STR_KAT_Breathing_AttachPersonalOxygenTank">
             <English>Connect Personal Oxygen</English>
@@ -2783,12 +2783,12 @@
         <Key ID="STR_KAT_Breathing_AttachOxygenVehicle">
             <English>Connect to Aircraft Oxygen</English>
             <Japanese>航空機酸素供給機に接続</Japanese>
-            <French>Connexion à l'oxygène de l'avion</French>
+            <French>Connexion à l'oxygène de l'aéronef</French>
         </Key>
         <Key ID="STR_KAT_Breathing_VehicleOxygen_Affirm">
             <English>Attached to Aircraft Oxygen</English>
             <Japanese>航空機酸素供給機に接続済</Japanese>
-            <French>Attaché à l'oxygène de l'avion</French>
+            <French>Attaché à l'oxygène de l'aéronef</French>
         </Key>
         <Key ID="STR_KAT_Breathing_PersonalOxygen_Affirm">
             <English>Oxygen already connected</English>
