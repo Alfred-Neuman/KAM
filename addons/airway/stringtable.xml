@@ -411,7 +411,7 @@
         <Key ID="STR_KAT_Airway_AirwayStatus_Poison">
             <English>Airway is heavily blistered</English>
             <Japanese>気道はひどく水膨れしている</Japanese>
-            <French>Les voies respiratoires sont fortement boursouflées</French>
+            <French>Les voies respiratoires sont fortement cloquées</French>
             <Chinesesimp>气道严重膨胀</Chinesesimp>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_NotClearForItem">
