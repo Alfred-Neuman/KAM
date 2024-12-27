@@ -2023,10 +2023,12 @@
         <Key ID="STR_KAT_Breathing_PersonalOxygen_Display">
             <English>Personal Oxygen Tank</English>
             <Japanese>個人用酸素ボンベ</Japanese>
+            <French>Réservoir d'oxygène personnel</French>
         </Key>
         <Key ID="STR_KAT_Breathing_PersonalOxygen_Desc_Short">
             <English>Personal oxygen tank for high altitude operations</English>
             <Japanese>高高度作戦に用いる個人用酸素ボンベ</Japanese>
+            <French>Réservoir d'oxygène personnel pour les opérations en haute altitude</French>
         </Key>
         <Key ID="STR_KAT_Breathing_PortableOxygenTank_150_Empty_Display">
             <English>Empty Portable Oxygen Tank (150L)</English>
