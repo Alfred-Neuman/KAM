@@ -182,7 +182,7 @@
         <Key ID="STR_KAT_Watch_SubtractTimer_Setting">
             <English>Subtract 15 Seconds from Watch Timer</English>
             <Japanese>時計のタイマーを15秒減らす</Japanese>
-            <French>Retirez 15 secondes de la minuterie de la montre</French>
+            <French>Retirer 15 secondes de la minuterie de la montre</French>
             <Chinesesimp>从手表计时器中减去15秒</Chinesesimp>
         </Key>
         <Key ID="STR_KAT_Watch_StartStopTimer_Setting">
