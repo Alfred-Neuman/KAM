@@ -50,17 +50,17 @@
         <Key ID="STR_KAT_Vitals_basicDiagnostic_use">
             <English>Use Basic Vitals Kit</English>
             <Japanese>基本型バイタル診断キットを使用</Japanese>
-            <French>Utiliser une trousse de base pour les signes vitaux</French>
+            <French>Utiliser un kit de diagnostic vital de base</French>
         </Key>
         <Key ID="STR_KAT_Vitals_basicDiagnostic_progress">
             <English>Assessing Patient...</English>
             <Japanese>患者を診断中・・・</Japanese>
-            <French>Évaluer le patient...</French>
+            <French>Évaluation du patient...</French>
         </Key>
         <Key ID="STR_KAT_Vitals_BasicDiagnostic_Output">
             <English>HR: %1, BP: %2/%3, RR: %4</English>
             <Japanese>心拍: %1, 血圧: %2/%3, 呼吸回数: %4</Japanese>
-            <French>Fréquence cardiaque : %1, Tension artérielle : %2/%3, Fréquence respiratoire : %4</French>
+            <French>FC : %1, PA : %2/%3, FR : %4</French>
         </Key>
         <Key ID="STR_KAT_Vitals_basicDiagnostic_Log">
             <English>%1 - %2</English>
