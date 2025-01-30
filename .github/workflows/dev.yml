@@ -21,7 +21,7 @@ jobs:
           branch: 'dev-Tomcat'
 
   release:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     needs: check
     if: needs.check.outputs.has-new-commits == 'true'
     steps:
