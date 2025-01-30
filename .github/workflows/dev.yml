@@ -49,7 +49,9 @@ jobs:
         run: mv .hemttout/release .hemttout/@kat
 
       - name: Read merged PRs into environment variable
-        run: echo "MERGED_PRS<<EOF" >> $GITHUB_ENV && cat merged_prs.txt >> $GITHUB_ENV && echo "EOF" >> $GITHUB_ENV
+        run: |
+          PR_LIST=$(cat merged_prs.txt)
+          echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV
         shell: bash
 
       - name: Update to Steam Workshop (dev)
