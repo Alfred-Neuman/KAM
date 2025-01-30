@@ -22,10 +22,10 @@ jobs:
     if: ${{ jobs.check.outputs.has-new-commits == 'true' }}
     steps:
         - name: Fetch merged PRs
-          if: ${{ steps.check_commits.outputs.has-new-commits == 'true' }}
+          if: ${{ steps.check-new-commits.outputs.has-new-commits == 'true' }}
           run: |
             echo "Recent merged PRs/commits:" > merged_prs.txt
-            git log --merges --pretty=format:"- %s by @%an" -n ${{ steps.check_commits.outputs.new-commits-number }} >> merged_prs.txt
+            git log --merges --pretty=format:"- %s by @%an" -n ${{ steps.check-new-commits.outputs.new-commits-number }} >> merged_prs.txt
           shell: bash
         - name: Install Arma 3 Tools
           uses: arma-actions/arma3-tools@master
