@@ -31,6 +31,7 @@ jobs:
       - name: Fetch merged PRs
         run: |
           PR_LIST=$(git log --pretty=format:"%s by %an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges)
+          echo "$PR_LIST"
           echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV  # Export to environment variable
         shell: bash
 
