@@ -31,7 +31,7 @@ jobs:
       - name: Fetch merged PRs
         run: |
           echo "Recent merged PRs/commits:" > merged_prs.txt
-          git log --merges --pretty=format:"- %s by @%an" -n ${{ needs.check.outputs.new-commits-number }} >> merged_prs.txt
+          git log --pretty=format:"- %s by @%an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges >> merged_prs.txt
         shell: bash
 
       - name: Install Arma 3 Tools
