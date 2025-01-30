@@ -51,6 +51,7 @@ jobs:
       - name: Read merged PRs into environment variable
         run: |
           PR_LIST=$(cat merged_prs.txt)
+          echo "PR_LIST content before storing in env: $PR_LIST"  # Echo the PR_LIST content to debug
           echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV
         shell: bash
 
