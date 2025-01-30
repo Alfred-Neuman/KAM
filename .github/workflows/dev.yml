@@ -30,14 +30,10 @@ jobs:
 
       - name: Fetch merged PRs
         run: |
-          echo "Recent merged PRs/commits:" > merged_prs.txt
-          git log --pretty=format:"%s by %an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges >> merged_prs.txt
+          PR_LIST=$(git log --pretty=format:"%s by %an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges)
+          echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV  # Export to environment variable
         shell: bash
 
-      - name: Set PR_LIST env
-        run: |
-          LIST=$(cat merged_prs.txt)
-          echo "PR_LIST=$LIST" >> $GITHUB_ENV
 
       - name: Install Arma 3 Tools
         uses: arma-actions/arma3-tools@master
@@ -58,7 +54,7 @@ jobs:
         with:
           itemId: '2841189207'
           contentPath: '.hemttout/@kat'
-          changelog: ${{ env.PR_LIST }}
+          changelog: ${{ env.MERGED_PRS }}
         env:
           STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
           STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
