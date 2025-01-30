@@ -37,8 +37,9 @@ jobs:
       - name: Read merged PRs into environment variable
         run: |
           PR_LIST=$(cat merged_prs.txt)
-          echo "PR_LIST content before storing in env: $PR_LIST"  # Echo the PR_LIST content to debug
-          echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV
+          PR_LIST_ESCAPED=$(echo "$PR_LIST" | sed 's/"/\\"/g' | sed 's/\./\\./g')
+          echo "PR_LIST content before storing in env: $PR_LIST_ESCAPED"
+          echo "MERGED_PRS=\"$PR_LIST_ESCAPED\"" >> $GITHUB_ENV
         shell: bash
 
       - name: Install Arma 3 Tools
