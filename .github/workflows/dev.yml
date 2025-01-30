@@ -19,10 +19,8 @@ jobs:
   release:
     runs-on: windows-latest
     needs: check
+    if: ${{ steps.check-new-commits.outputs.has-new-commits == 'true' }}
     steps:
-        - name: Print another thing if new commits couldn't be found
-          if: ${{ steps.check-new-commits.outputs.has-new-commits != 'true' }}
-          run: echo "You don't have new commits 🛑!" && exit 0
         - name: Fetch merged PRs
           if: ${{ steps.check_commits.outputs.has-new-commits == 'true' }}
           run: |
