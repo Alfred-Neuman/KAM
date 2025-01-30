@@ -31,7 +31,14 @@ jobs:
       - name: Fetch merged PRs
         run: |
           echo "Recent merged PRs/commits:" > merged_prs.txt
-          git log --pretty=format:"- %s by @%an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges >> merged_prs.txt
+          git log --pretty=format:"%s by @%an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges >> merged_prs.txt
+        shell: bash
+
+      - name: Read merged PRs into environment variable
+        run: |
+          PR_LIST=$(cat merged_prs.txt)
+          echo "PR_LIST content before storing in env: $PR_LIST"  # Echo the PR_LIST content to debug
+          echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV
         shell: bash
 
       - name: Install Arma 3 Tools
@@ -47,13 +54,6 @@ jobs:
 
       - name: Rename release folder
         run: mv .hemttout/release .hemttout/@kat
-
-      - name: Read merged PRs into environment variable
-        run: |
-          PR_LIST=$(cat merged_prs.txt)
-          echo "PR_LIST content before storing in env: $PR_LIST"  # Echo the PR_LIST content to debug
-          echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV
-        shell: bash
 
       - name: Update to Steam Workshop (dev)
         uses: arma-actions/workshop-upload@v1
