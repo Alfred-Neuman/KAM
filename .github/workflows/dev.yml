@@ -19,7 +19,7 @@ jobs:
   release:
     runs-on: windows-latest
     needs: check
-    if: ${{ steps.check-new-commits.outputs.has-new-commits == 'true' }}
+    if: ${{ jobs.check.outputs.has-new-commits == 'true' }}
     steps:
         - name: Fetch merged PRs
           if: ${{ steps.check_commits.outputs.has-new-commits == 'true' }}
