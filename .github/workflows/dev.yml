@@ -30,9 +30,11 @@ jobs:
 
       - name: Fetch merged PRs
         run: |
-          echo 'MERGED_PRS<<EOF' >> $GITHUB_ENV
-          git log --pretty=format:"%s by %an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges >> $GITHUB_ENV
-          echo EOF >> $GITHUB_ENV
+          git log --pretty=format:"%s by %an" -n ${{ needs.check.outputs.new-commits-number }} --no-merges > merged_prs.txt
+          echo merged_prs.txt
+          PR_LIST=$(cat merged_prs.txt)
+          echo "$PR_LIST"
+          echo "MERGED_PRS=$PR_LIST" >> $GITHUB_ENV
         shell: bash
 
       - name: Install Arma 3 Tools
