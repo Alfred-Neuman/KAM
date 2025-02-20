@@ -37,7 +37,7 @@ private _heartRateOutput = ACELSTRING(medical_treatment,Check_Pulse_Output_5);
 private _logOutput = ACELSTRING(medical_treatment,Check_Pulse_None);
 
 if (_heartRate > 1) then {
-    if ([_medic, QACEGVAR(medical,numericalPulse)] call FUNC(isMedic)) then {
+    if ([_medic, QACEGVAR(medical,numericalPulse)] call ACEFUNC(medical_treatment,isMedic)) then {
         if (GVAR(hardcoreDiagnose)) then {
             _heartRateOutput = LSTRING(Check_Pulse_Output);
             _logOutput = format [LLSTRING(Pulse_Output), (round(_heartRateOutput / 5) * 5)];
